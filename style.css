@@ -1,0 +1,101 @@
+table, th, td, tr{
+    color: wheat;
+    margin-top: 100px;
+    border: 1px solid wheat;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    z-index: 2;
+
+}
+
+th {
+    color:blanchedalmond;
+    font-weight:bold;
+    font-size: 20px;
+}
+html {
+    overflow-y: overlay;
+}
+
+.separator {
+    margin-left: 16%;
+    width: 700px;
+    height: 200px;
+    background-image: url("assets/separator.png");
+    background-size :auto;
+    background-repeat: no-repeat;
+
+}
+
+.binangkal-img {
+    border: solid antiquewhite;
+    position: absolute;
+    width: 250px;
+    height: 167px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url("assets/binangkal-bread-image.jpeg");
+    margin-left: 620px;
+    margin-top: 300px;
+}
+
+
+
+body{
+    background-color: gray;
+    color:antiquewhite;
+    max-width:fit-content;
+    margin-left:  auto;
+    margin-right:  auto;
+    background-image: url("assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    background-attachment: fixed;
+}
+
+.headings{
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: black;
+}
+
+.table_main{
+    max-width:fit-content;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+
+ h1{
+    width: 900px;
+    height: 100px;
+    border: solid 1px;
+    font-size: 80px;
+ }
+
+h4 , p {
+    margin-left: 100px;
+
+}
+
+.proc{
+    
+    border: solid antiquewhite 3px;
+    margin-top: 200px;
+    width: 900px;
+    height: 1000px;
+    
+    
+}
+
+
+
+footer { 
+    margin-top: 20%;
+    border: solid antiquewhite 1px;
+    text-align:  center;
+}
+
+
+
